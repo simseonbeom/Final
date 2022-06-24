@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+
+
+.stage{
+  width: 1500px;
+  height: 900px;
+  background: #83FFE1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+
+.contents{
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 45px;
+  font-weight: light;
+}
+p{
+  font-size: 30px;
+  font-weight: light;
+  color: #4B4B4B;
+}
+
+button{
+  color: #fff;
+  font-size: 20px;
+  padding: 16px 33px;
+  background:#FF83C6;
+  border:none;
+}
+
+
+
+.planet > img:nth-child(1){
+  position: absolute;
+  right: 259px;
+  top: -23px;
+ 
+}
+
+.planet > img:nth-child(2){
+  position: absolute;
+  right: -80px;
+  top: 326px;
+}
+
+.planet > img:nth-child(3){
+  position: absolute;
+  right: -210px;
+  bottom: -410px;
+}
+
+.planet > img:nth-child(4){
+  position: absolute;
+  left: -330px;
+  top: -545px;
+}
+
+.planet > img:nth-child(5){
+  position: absolute;
+  right: -380px;
+  top: -270px;
+
+
